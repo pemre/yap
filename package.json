@@ -20,12 +20,8 @@
   },
   "scripts": {
     "start": "vite",
-    "vite-build": "vite build",
-    "vite-preview": "vite preview",
-    "DELETEtart": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": [
     ">0.2%",
