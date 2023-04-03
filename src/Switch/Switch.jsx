@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "./Switch.module.css";
+import styles from "./Switch.module.css";
 
 export const Switch = ({ checked, onClick }) => {
   return (
@@ -7,7 +7,7 @@ export const Switch = ({ checked, onClick }) => {
       <input
         type="checkbox"
         checked={checked ? "checked" : ""}
-        onClick={() => onClick()}
+        onChange={() => onClick()}
       />
       <span className={`${styles.slider} ${styles.round}`}></span>
     </label>

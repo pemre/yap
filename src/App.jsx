@@ -7,7 +7,7 @@ import { Switch } from "./Switch/Switch";
 
 import "./styles.css";
 
-const Todo = () => {
+export const App = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Todo = () => {
 
     setTodos([
       ...todos,
-      { id: Date.now(), text: title.trim(), completed: false }
+      { id: Date.now(), text: title.trim(), completed: false },
     ]);
   };
 
@@ -113,5 +113,3 @@ const Todo = () => {
     </>
   );
 };
-
-export default Todo;
