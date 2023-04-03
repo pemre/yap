@@ -47,7 +47,8 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-  content: "✔";
+  /* content: "✔"; */
+  content: "";
   text-align: center;
   line-height: 26px;
   color: #38b618;
