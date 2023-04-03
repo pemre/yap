@@ -1,7 +1,7 @@
 {
   "name": "yap",
   "version": "1.0.0",
-  "description": "Yap: A todo app made with React",
+  "description": "Yap: A todo app made with React and Vite.js",
   "main": "src/index.jsx",
   "dependencies": {
     "react": "18.2.0",
